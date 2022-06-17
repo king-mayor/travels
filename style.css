@@ -486,6 +486,10 @@ footer {
     margin-top: 15px;
     padding: 10px;
     color: white;
+    cursor: pointer;
+}
+.footer4 i:hover {
+    cursor: pointer;
 }
 .footer5 button{
     margin-top: 15px;
