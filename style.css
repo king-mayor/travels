@@ -515,7 +515,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 35px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
     .navbar img{
         width: 150px;
         height: 50px;
