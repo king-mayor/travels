@@ -642,14 +642,10 @@ footer {
         padding: 10px 15px;
         font-size: 0.8em;
     }
-    .contacts-img img {
-        width: 250px;
-        height: 250px;
-    }
     .contacts-img {
         display: flex;
+        width: 250px;
         justify-content: center;
-        width: 100%;
     }
     .footer-container {
         grid-template-columns: 1fr;
