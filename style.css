@@ -9,8 +9,9 @@
     left: 0;
 }
 .navbar img{
-    width: 250px;
-    height: 50px;
+    width: 100px;
+    height: 20px;
+    margin-top: 15px;
 }
 .social-links i{
     color: white;
@@ -519,40 +520,36 @@ footer {
     margin-top: 20px;
     margin-bottom: 35px;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 670px) {
     .navbar img{
-        width: 150px;
-        height: 50px;
+        width: 100px;
+        height: 20px;
+        margin-top: 15px;
     }
     .navbar {
         position: sticky;
     }
-    .nav ul {
-        margin-top: 70px;
-        left: 20%;
-        column-gap: 15px;
+    .nav, .nav-form1, .nav-form2 {
+        display: none;
     }
-    .social-links i {
-        margin-top: 70px;
+    .social-links {
+        display: none;
     }
-    .social-links a {
-        left: 5%;
+    .text-area h1 {
+        font-size: 1.2em;
     }
-    .nav-form1 {
-        margin-top: 100px;
-        margin-left: 10%;
+    .text-area p {
+        font-size: 0.9em;
     }
-    .nav-form1 button{
+    .text-area {
+        margin-top: 150px;
+    }
+    .btn1 button {
         padding: 10px 15px;
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
-    .nav-form2 {
-        margin-top: 100px;
-        margin-left: 10%;
-    }
-    .nav-form2 button{
-        padding: 10px 15px;
-        font-size: 0.7em;
+    .book-online h1 {
+        font-size: 1em;
     }
     .book-online h1:before {
         width: 100px;
@@ -560,52 +557,69 @@ footer {
     .book-online h1:after {
         width: 100px;
     }
-    body, html {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
+    .travel1 img, .travel2 img, .travel3 img{
+        width: 300px;
     }
     .travels {
         flex-direction: column;
         gap: 15px;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+    }
+    .travels h1 {
+        font-size: 0.8em;
+        font-weight: lighter;
     }
     .video-text {
         margin-top: 10%;
         margin-left: 5%;
     }
-    .featured {
-        font-size: 0.85em;
+    .featured h1{
+        font-size: 1em;
+        font-weight: lighter;
     }
     .featured:before{
         width: 100px;
-        right: 78%;
+        right: 70%;
     }
     .featured:after{
         width: 100px;
-        left: 78%;
+        left: 70%;
+    }
+    .views h2 {
+        font-size: 1em;
     }
     .view-containers {
         grid-template-columns: 1fr;
+    }
+    .view-containers h1 {
+        font-size: 1.1em;
+    }
+    .view-containers p {
+        font-size: 0.85em;
     }
     .contact-container {
         flex-direction: column-reverse;
     }
     .contacts-cont h1 {
-        font-size: 1.3em;
+        font-size: 1em;
         padding-left: 25%;
     }
     .contacts-cont h2 {
-        font-size: 1.3em;
+        font-size: 1em;
         padding-left: 40%;
     }
     .contacts-cont h3 {
-        font-size: 1.3em;
+        font-size: 1em;
         padding-left: 54%;
     }
     .contacts-cont h4 {
-        font-size: 1.3em;
+        font-size: 1em;
+        padding-left: 50%;
+    }
+    .contacts-cont ul li a {
+        font-size: 1em;
         padding-left: 50%;
     }
     .bottom-links a{
@@ -613,17 +627,246 @@ footer {
     }
     .bottom-links {
         margin-right: 0%;
-        margin-left: 36%;
+        margin-left: 25%;
     }
-    .bg-video {
+    .bg-video, .video-b {
         height: 100%;
-        
     }
-    .video-b{
-        height: 100%;
+    .vacation h1 {
+        font-size: 1.2em;
+    }
+    .vacation p {
+        font-size: 1.1em;
+    }
+    .vacation-1 button {
+        padding: 10px 15px;
+        font-size: 0.8em;
+    }
+    .contacts-img img {
+        width: 300px;
+        height: 300px;
+    }
+    .contacts-img {
+        display: flex;
+        justify-content: center;
     }
     .footer-container {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+    .footer-container h1 {
+        font-size: 1em;
+    }
+    .footer-container p, .footer1 a, .footer4 ul li a {
+        font-size: 0.8em;
+    }
+    .footer5 h1 {
+        font-size: 1em;
+    }
+    .footer5 button {
+        padding: 15px 20px;
+        font-size: 0.8em;
+    }
+}
+@media all and (max-width: 980px) {
+    .navbar img{
+        width: 100px;
+        height: 20px;
+        margin-top: 15px;
+    }
+    .navbar {
+        position: sticky;
+    }
+    .nav, .nav-form1, .nav-form2 {
+        display: none;
+    }
+    .social-links {
+        display: none;
+    }
+    .text-area h1 {
+        font-size: 1.4em;
+    }
+    .text-area p {
+        font-size: 1.1em;
+    }
+    .text-area {
+        margin-top: 150px;
+    }
+    .btn1 button {
+        padding: 10px 15px;
+        font-size: 0.8em;
+    }
+    .book-online h1 {
+        font-size: 1.1em;
+    }
+    .book-online h1:before {
+        display: none;
+    }
+    .book-online h1:after {
+       display: none;
+    }
+    .travels h1 {
+        font-size: 0.8em;
+        font-weight: lighter;
+    }
+    .featured h1{
+        font-size: 1em;
+        font-weight: lighter;
+    }
+    .views h2 {
+        font-size: 1em;
+    }
+    .view-containers {
+        grid-template-columns: auto;
+    }
+    .contact-container {
+        flex-direction: column-reverse;
+    }
+    .contacts-cont h1 {
+        font-size: 1em;
+        padding-left: 25%;
+    }
+    .contacts-cont h2 {
+        font-size: 1em;
+        padding-left: 40%;
+    }
+    .contacts-cont h3 {
+        font-size: 1em;
+        padding-left: 54%;
+    }
+    .contacts-cont h4 {
+        font-size: 1em;
+        padding-left: 50%;
+    }
+    .contacts-cont ul li a {
+        font-size: 1em;
+        padding-left: 50%;
+    }
+    .bottom-links a{
+        padding-right: 0px;
+    }
+    .bottom-links {
+        margin-right: 0%;
+        margin-left: 15%;
+    }
+    .bg-video, .video-b {
+        height: 100%;
+    }
+    .vacation h1 {
+        font-size: 1.3em;
+    }
+    .vacation p {
+        font-size: 1.2em;
+    }
+    .vacation-1 button {
+        padding: 10px 15px;
+        font-size: 0.8em;
+    }
+    .contacts-img img {
+        width: 400px;
+        height: 400px;
+    }
+    .contacts-img {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container h1 {
+        font-size: 1em;
+    }
+    .footer-container p, .footer1 a, .footer4 ul li a {
+        font-size: 0.8em;
+    }
+    .footer5 h1 {
+        font-size: 1em;
+    }
+    .footer5 button {
+        padding: 15px 20px;
+        font-size: 0.8em;
+    }
+}
+@media all and (max-width: 1250px) {
+    .nav-form1, .nav-form2 {
+        display: none;
+    }
+    .navbar img{
+        width: 100px;
+        height: 20px;
+        margin-top: 15px;
+    }
+    .book-online h1 {
+        font-size: 1.1em;
+    }
+    .book-online h1:before {
+        width: 220px;
+    }
+    .book-online h1:after {
+        width: 220px;
+    }
+    .travels h1 {
+        font-size: 0.8em;
+        font-weight: lighter;
+    }
+    .travel1 img, .travel2 img, .travel3 img{
+        width: 200px;
+    }
+    .travels {
+        gap: 25px;
+        margin-left: 0%;
+        margin-right: 0%;
+        justify-content: center;
+    }
+    .featured h1{
+        font-size: 1em;
+        font-weight: lighter;
+    }
+    .featured:before {
+        display: none;
+    }
+    .featured:after {
+        display: none;
+    }
+    .view-containers {
+        grid-template-columns: repeat(auto);
+    }
+    .footer-container h1 {
+        font-size: 1em;
+    }
+    .footer-container p, .footer1 a, .footer4 ul li a {
+        font-size: 0.8em;
+    }
+    .footer5 h1 {
+        font-size: 1em;
+    }
+    .footer5 button {
+        padding: 15px 20px;
+        font-size: 0.8em;
+    }
+    .contacts-cont h1, .contacts-cont h2, .contacts-cont h3, .contacts-cont h4 {
+        font-size: 1em;
+    }
+}
+@media all and (max-width: 1400px){
+    .view-containers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .view-containers h1 {
+        font-size: 1.1em;
+    }
+    .view-containers p {
+        font-size: 0.85em;
+    }
+    .contacts-cont ul li a {
+        font-size: 1em;
+        padding-left: 50%;
+    }
+    .bottom-links a{
+        padding-right: 0px;
+    }
+    .bottom-links {
+        margin-right: 0%;
+        margin-left: 15%;
     }
 }
